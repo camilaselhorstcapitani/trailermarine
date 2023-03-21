@@ -4,34 +4,79 @@ body
     background-position-y: -140px;
     background-repeat: no-repeat;
     background-size: 100%;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    align-content: center;
     width: 100%;
     height: 100vh;
     margin: 0%;
+    overflow:hidden;
 }
+
 
 .fundo2
 {
-    background-image: url("camila\ \(2\).png");
+    background-image: url("joao.png");
     position: absolute;
     width: 100%;
     height: 100vh;
-    background-size: 100%;
+    background-size: 100%;  
 }
+
 .quadradodados
 {
-    background-image: url("camila\ \(4\).png");
+    background-color: rgb(9, 34, 68);
     background-repeat: no-repeat;
-    position: absolute;
-    width: 100%; /* largura*/
-    height: 100vh; /*altura*/
+    width: 20%; /* largura*/
+    height: 60vh; /*altura*/
     background-size: 70%;
     align-items: center;
+    margin-top: 220px;
 }
+
 .tabela1
 {
     border-style: solid;
     border-width: 0px;
     border-spacing: 5px;
     padding: 5px;
+    width: 100%;
 }
-
+.botao
+{
+    cursor: pointer;
+    background-color: rgb(8, 64, 168);
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 150px;
+}
+.botao2
+{
+    cursor: pointer;
+    background-color: rgb(121, 164, 243);
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 100px;
+}
+.conteudo
+{
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    flex-direction:column ;
+}
