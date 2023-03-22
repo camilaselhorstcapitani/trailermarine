@@ -1,0 +1,26 @@
+body
+{
+    background-image: url("camila\ \(1\).png");
+    background-position-y: -140px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    align-content: center;
+    width: 100%; /*largura*/
+    height: 100vh; /*altura*/
+    margin: 0%;
+    overflow:hidden;
+
+}
+
+
+.fundo2
+{
+    background-image: url("tiradecima.png");
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;  
+}
