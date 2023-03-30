@@ -28,22 +28,29 @@ body
 
 .quadradodados
 {
-    background-color: #031A39;
+    background: rgba(2, 32, 74, 0.5);
     background-repeat: no-repeat;
-    width: 70%; /* largura*/
-    height: 500px; /*altura*/
+    width:  540px; /* largura*/
+    height: 540px; /*altura*/
     background-size: 70%;
     align-items: center;
-    margin-top: 220px;
+    margin-top: 180px;
     display:flex;
     flex-direction: column;
     justify-content: space-around;
     align-content: center;
-    border-radius: 20px;
+    border-radius: 270px;
+    font-size: 25px;
+    box-shadow: 2px 2px #031A39;
 }
 a
 {
-    color: #28C0E1;
+    color: #c5e8f0;
+}
+
+.titulo
+{
+    color:#28C0E1;
 }
 
 .carrinho
@@ -69,8 +76,11 @@ a
 
 .logo
 {
-    height: 100px; /*altura*/
+
     width: 100%; /* largura*/
-    margin-top: -13%;
-    padding-left: 70%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
 }
