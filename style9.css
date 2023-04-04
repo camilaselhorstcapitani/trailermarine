@@ -1,6 +1,6 @@
 body
 {
-    background-image: url("camila\ \(1\).png");
+    background-image: url("fundo_mar.jpeg");
     background-position-y: -140px;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -16,7 +16,7 @@ body
 }
 
 
-.fundo2
+.tiradecima
 {
     background-image: url("tiradecima.png");
     position: absolute;
@@ -57,7 +57,7 @@ a
 {
     height: 100px; /*altura*/
     width: 150%; /* largura*/
-    margin-top: 2%;
+    margin-top: -90px;
     padding-left: 80%;
 
 }
@@ -66,19 +66,23 @@ a
 {
     height: 100px; /*altura*/
     width: 100%; /* largura*/
-    margin-top: -6%;
+    margin-top: -100px;
     padding-left: 90%;
 }
 
-.botao:hover{
-    background-color: rgb(81, 189, 251);
+.barra
+{
+    height: 100px; /*altura*/
+    width: 100%; /* largura*/
+    margin-top: 0px;
+    padding-left: 0%;
 }
 
 .logo
 {
 
     width: 100%; /* largura*/
-    margin-top: 50px;
+    margin-top: 0%;
     display: flex;
     flex-direction: row;
     justify-content: center;
