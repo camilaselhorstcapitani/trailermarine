@@ -19,6 +19,7 @@ body
 .tiradecima
 {
     background-image: url("tiradecima.png");
+    background-repeat: no-repeat;
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -74,7 +75,7 @@ a
 {
     height: 100px; /*altura*/
     width: 100%; /* largura*/
-    margin-top: 0px;
+    margin-top: 10px;
     padding-left: 0%;
 }
 
